@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Dokumentace semestralnio projektu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>Dokumentace semestralniho projektu</h1>
+        </header>
+        
+        <nav id="obsah">
+            <h2>Obsah</h2>
+            <ul>
+                <li><a href="#obsah">Obsah s odkazy</a></li>
+                <li><a href="#uvod">Uvod</a></li>
+                <li><a href="#metodika">Metodika</a></li>
+                <li><a href="#popis_ele_atr">Popis elementu a atributu</a></li>
+                <li><a href="#popis_transformace">Popis transformace</a></li>
+                <li><a href="#zaver">Zaver</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section id="uvod">
+                <article>
+                    <h2>Uvod</h2>
+                    <p>
+                        Tato dokumentace slouzi k semestralni praci z predmetu Znackovaci jazyky vyucovanem ve ctrvtem semestru.
+                        Tematem tohoto projektu je konfigurace aplikace, potazmo nastaveni pocitacove hry.
+                    </p>
+                </article>
+            </section>
+            
+            <section id="metodika">
+                <article>
+                    <h2>Metodika</h2>
+                    <h3>Uzite programy k projektu</h3>
+                    <p>
+                        Pri tvorbe projektu jsem pouzil program <a href="https://netbeans.org/"><i>NetBeans IDE</i></a> a internetovy prohlizec
+                        <a href="http://www.google.com/chrome/"><i>Google Chrome</i></a>.
+                    </p>
+                    <h3>Uzite internetove stranky</h3>
+                    <p>
+                        Vetsinu informaci, ne-li vsechny, jsem nasel na strankach <a href="https://moodle.czu.cz/"><i>Moodlu CZU</i></a> v prislusnem kurzu v podobe
+                        prednasek a hlavne materialu ze cviceni. Dale jsem vyuzil sluzeb internetove stranky <a href="http://validator.w3.org/"><i>W3Schools</i></a>,
+                        kde jsem provedl validaci souboru. Jako posledni jsem pouzil stranku <a href="https://github.com/"><i>GitHub</i></a>, kam jsem nahral projekt.
+                    </p>
+                </article>
+            </section>            
+            <section id="popis_ele_atr">
+                <article>
+                    <h2>Popis elementu a atributu</h2>
+                    <h3>Elementy</h3>
+                    <table border="1" id="elementy" title="Popis elementu">
+                        <tr>
+                            <td>Nazev elementu</td>
+                            <td>Popis elementu</td>
+                        </tr>
+                        <tr>
+                            <td>display_mode</td>
+                            <td>Moznost prepnuti zobrazovaciho modu.</td>
+                        </tr>
+                        <tr>
+                            <td>resolution</td>
+                            <td>Rozliseni obrazovky.</td>
+                        </tr>
+                        <tr>
+                            <td>refresh_rate</td>
+                            <td>Kolikrat je obraz vykreslen na obrazovku.</td>
+                        </tr>
+                        <tr>
+                            <td>monitor</td>
+                            <td>Nasteveni primarniho monitoru, kde se bude nachazet okno aplikace.</td>
+                        </tr>
+                        <tr>
+                            <td>anti-aliasing</td>
+                            <td>Technika zjemnujici zubate rohy, hlavne pri nizkych rozliseni.</td>
+                        </tr>
+                        <tr>
+                            <td>vertical_sync</td>
+                            <td>Synchronizuje framerate na nejake zlomky vaseho refresh rate monitoru.</td>
+                        </tr>
+                        <tr>
+                            <td>texture_resolution</td>
+                            <td>Ridi uroven vsech detailu textur.</td>
+                        </tr>
+                        <tr>
+                            <td>texture_filtering</td>
+                            <td>Zvysuje ostrost textur, castecne pro textury nahlizene z uhlu.</td>
+                        </tr>
+                        <tr>
+                            <td>projected_textures</td>
+                            <td>Umoznuje vyskreslovani textur do prostredi.</td>
+                        </tr>
+                        <tr>
+                            <td>view_distance</td>
+                            <td>Ridi, jak daleko je mozne videt.</td>
+                        </tr>
+                        <tr>
+                            <td>enviroment_detail</td>
+                            <td>Ridi, jak daleko je mozne videt objekty.</td>
+                        </tr>
+                        <tr>
+                            <td>ground_clutter</td>
+                            <td>Ridi hustotu a vzdalenost, pri ktere jsou zaneseny objekty.</td>
+                        </tr>
+                        <tr>
+                            <td>shadow_quality</td>
+                            <td>Ridi metodu a kvalitu stinu.</td>
+                        </tr>
+                        <tr>
+                            <td>liquid_detail</td>
+                            <td>Ridi vykreslovani kvality tekutin.</td>
+                        </tr>
+                        <tr>
+                            <td>sunshafts</td>
+                            <td>Ridi metodu a kvalitu pouzitou pro ukazovani paprsku slunce a zaricich efektu.</td>
+                        </tr>
+                        <tr>
+                            <td>particle_density</td>
+                            <td>Ridi pocet castic pouzitych v efektech kouzel, ohnu atd.</td>
+                        </tr>
+                        <tr>
+                            <td>ssao</td>
+                            <td>Ridi vykreslovani kvalitu pokrocilych svetelnych efektu.</td>
+                        </tr>
+                        <tr>
+                            <td>depth_effects</td>
+                            <td>Ridi vykreslovani hlubsich castic efektu.</td>
+                        </tr>
+                        <tr>
+                            <td>lighting_quality</td>
+                            <td>Ridi metodu a kvalitu osvetleni.</td>
+                        </tr>
+                        <tr>
+                            <td>outline_mode</td>
+                            <td>Ridi, zda-li je vyber outline metod povolen.</td>
+                        </tr>
+                        <tr>
+                            <td>triple_buffering</td>
+                            <td>Povoluje trojite vyrovnavani pameti</td>
+                        </tr>
+                        <tr>
+                            <td>reduce_input_lag</td>
+                            <td>Povolenim snizuje prodvelu uzivatelskeho rozhrani.</td>
+                        </tr>
+                        <tr>
+                            <td>hardware_cursor</td>
+                            <td>Povolenim aktivuje vice citlivejsi kurzor mysi.</td>
+                        </tr>
+                        <tr>
+                            <td>msaa</td>
+                            <td>Nastavuje multisample anti-aliasing.</td>
+                        </tr>
+                        <tr>
+                            <td>multisample_alpha-test</td>
+                            <td>Vyhodnocuje alha-test operace kdyz je MSAA aktivovano.</td>
+                        </tr>
+                        <tr>
+                            <td>resample_quality</td>
+                            <td>Pri pouzivani render skaly, ktera neni 100%, upravuje kvalitu filtrovani na rozliseni.</td>
+                        </tr>
+                        <tr>
+                            <td>graphics_api</td>
+                            <td>Volba graficke API (DirectX 9, DirectX 11).</td>
+                        </tr>
+                        <tr>
+                            <td>physics_interactions</td>
+                            <td>Volba fyzicke interakce s prostredim.</td>
+                        </tr>
+                        <tr>
+                            <td>ui_scale</td>
+                            <td>Povoluje volitelne nastaveni velikosti UI.</td>
+                        </tr>
+                        <tr>
+                            <td>max_foreground_fps</td>
+                            <td>Urcuje maximalni pocet FPS pri chodu aplikace na popredi.</td>
+                        </tr>
+                        <tr>
+                            <td>max_background_fps</td>
+                            <td>Urcuje maximalni pocet FPS pri chodu aplikace na pozadi.</td>
+                        </tr>
+                        <tr>
+                            <td>render_scale</td>
+                            <td>Nasobitel na zobrazovane rozliseni pro vykreslovani 3D sveta.</td>
+                        </tr>
+                        <tr>
+                            <td>otpimize_network_for_speed</td>
+                            <td>Povolenim se optimalizuje vyuziti internetu ve prospech snizeni prodvely.</td>
+                        </tr>
+                        <tr>
+                            <td>enable_ipv6_when_available</td>
+                            <td>Umoznuje vyuziti IPv6, technologie nove generace internetu.</td>
+                        </tr>
+                        <tr>
+                            <td>advanced_combat_logging</td>
+                            <td>Povoluje dodatecne data pri psani combat logu do textoveho souboru.</td>
+                        </tr>
+                        <tr>
+                            <td>text</td>
+                            <td>Nastaveni jazyku textu.</td>
+                        </tr>
+                        <tr>
+                            <td>audio</td>
+                            <td>Nastaveni jazyku audia.</td>
+                        </tr>
+                        <tr>
+                            <td>sound_effects</td>
+                            <td>Povoluje ci blokuje herni zvukove efekty.</td>
+                        </tr>
+                        <tr>
+                            <td>enable_pet_sounds</td>
+                            <td>Nastavuje zvuky zviratek.</td>
+                        </tr>
+                        <tr>
+                            <td>emote_sounds</td>
+                            <td>Povoluje ci blokuje emote zvuky.</td>
+                        </tr>
+                        <tr>
+                            <td>music</td>
+                            <td>Povoluje hudbu na pozadi.</td>
+                        </tr>
+                        <tr>
+                            <td>loop_music</td>
+                            <td>Povolenim se aktivuje neustale prehravani hudby na pozadi.</td>
+                        </tr>
+                        <tr>
+                            <td>pet_battle_music</td>
+                            <td>Povoluje specialni hudbu behem pet battles.</td>
+                        </tr>
+                        <tr>
+                            <td>ambient_music</td>
+                            <td>Povoluje okolni hudbu.</td>
+                        </tr>
+                        <tr>
+                            <td>dialog</td>
+                            <td>Povoluje ci blokuje veskere dialogy.</td>
+                        </tr>
+                        <tr>
+                            <td>error_speech</td>
+                            <td>Povoluje zvuky z chybnych akci.</td>
+                        </tr>
+                        <tr>
+                            <td>sound_in_background</td>
+                            <td>Polovuje, zda-li hudba hraje pri chodu aplikace na pozadi.</td>
+                        </tr>
+                        <tr>
+                            <td>enable_reverb</td>
+                            <td>Povoluje ozveny.</td>
+                        </tr>
+                        <tr>
+                            <td>distance_filtering</td>
+                            <td>Simuluje zvuk realneho sveta diky rekudovani frekvence na vzdalenost.</td>
+                        </tr>
+                        <tr>
+                            <td>death_knight_voices</td>
+                            <td>Specialni zvukove efekty pro Death Knighty.</td>
+                        </tr>
+                        <tr>
+                            <td>game_sound_output</td>
+                            <td>Vyber, v jakem zarizeni si uzivatel bude chtit nechat prehravat zvuk.</td>
+                        </tr>
+                        <tr>
+                            <td>sound_channels</td>
+                            <td>Meni pocet aktivnich softwarovych zvukovych kanalu.</td>
+                        </tr>
+                        <tr>
+                            <td>sound_cache</td>
+                            <td>Meni mnozstvi pameti vyuzite pro zvuky.</td>
+                        </tr>
+                        <tr>
+                            <td>master_volume</td>
+                            <td>Nastavuje celkovou hlasitost.</td>
+                        </tr>
+                        <tr>
+                            <td>sound</td>
+                            <td>Nastavuje hlasitost zvukovych efektu.</td>
+                        </tr>
+                        <tr>
+                            <td>music</td>
+                            <td>Nastavuje hlasitost hudby v pozadi.</td>
+                        </tr>
+                        <tr>
+                            <td>ambience</td>
+                            <td>Nastavuje hlasitost okolni hudby.</td>
+                        </tr>
+                        <tr>
+                            <td>dialog</td>
+                            <td>Nastavuje hlasitost dialogu.</td>
+                        </tr>
+                        <tr>
+                            <td>water_collision</td>
+                            <td>Nastavuje kameru nad vodu, kdyz je charakter nad vodou; pod vodu, jestli-ze je charakter pod vodou.</td>
+                        </tr>
+                        <tr>
+                            <td>camera_following_style</td>
+                            <td>Nastavuje pozici kamery a jeji otaceni se napr. pri pohybu charakteru.</td>
+                        </tr>
+                        <tr>
+                            <td>invert_mouse</td>
+                            <td>Obraceni pohybu mysi.</td>
+                        </tr>
+                        <tr>
+                            <td>mouse_look_speed</td>
+                            <td>Nastavuje rychlost pohybu kamery pri pouzivani mysi.</td>
+                        </tr>
+                        <tr>
+                            <td>enable_mouse_sensitivity</td>
+                            <td>Polovuje a nastavuje citlivost mysi.</td>
+                        </tr>
+                    </table>
+                    <h3>Atributy</h3>
+                    <table border="1" id="atributy" title="Popis atributu">
+                        <tr>
+                            <td>Nazev atributu</td>
+                            <td>Popis atributu</td>
+                        </tr>
+                        <tr>
+                            <td>version</td>
+                            <td>Urcuje soucasnou verzi aplikace.</td>
+                        </tr>
+                        <tr>
+                            <td>quality</td>
+                            <td>Urcuje celkovou kvalitu grafickeho nastaveni aplikace.</td>
+                        </tr>
+                        <tr>
+                            <td>enabled</td>
+                            <td>Urcuje, zda-li je hodnota atributu povolena ci nepovolena.</td>
+                        </tr>
+                        <tr>
+                            <td>value</td>
+                            <td>Nastaveni hodnoty grafickeho zobrazeni u <i>enviroment</i> slozek.</td>
+                        </tr>
+                        <tr>
+                            <td>scale</td>
+                            <td>Nastaveni hodnoty u elementu <i>ui_scale</i>, muze nabyvat hodnot od 0.4 do 1.3.</td>
+                        </tr>
+                        <tr>
+                            <td>fps</td>
+                            <td>Nastaveni hodnoty FPS u elementu <i>max_foreground_fps</i> a <i>max_background_fps</i>.</td>
+                        </tr>
+                        <tr>
+                            <td>render</td>
+                            <td>Nastaveni hodnoty vykreslovani u elementu <i>render_scale</i>.</td>
+                        </tr>
+                        <tr>
+                            <td>lang</td>
+                            <td>Nastaveni jazyku.</td>
+                        </tr>
+                        <tr>
+                            <td>follow</td>
+                            <td>Nastaveni rychlosti otaceni kamery.</td>
+                        </tr>
+                        <tr>
+                            <td>speed</td>
+                            <td>Nastaveni rychlosti pohybu mysi.</td>
+                        </tr>
+                        <tr>
+                            <td>sensitivity</td>
+                            <td>Nastaveni citlivosti mysi.</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
+            <section id="popis_transformace">
+                <article>
+                    <h2>Popis transformace</h2>
+                    <h3>Transformace do JSON</h3>
+                    <p>
+                        Veskera data jsou tranformovana do souboru JSON, ve kterem jsou strukturovany dle vychozich hodnot nalezenych v XML souboru.
+                    </p>
+                    <h3>Transformace do HTML</h3>
+                    <p>
+                        Tato transformace strukturuje data do casti stejne kategorie s prislusnymi tabulkami, kde je videt, jake nastaveni je prave zvoleno.
+                        Muzeme to brat tak, ze takto by mohlo vypadat menu nastaveni v dane hre.
+                    </p>
+                </article>
+            </section>
+            <section id="zaver">
+                <article>
+                    <h2>Zaver</h2>
+                    <p>
+                        Pri tvorbe tohoto semestralniho projektu jsem si vyzkousel, jake je to pracovat s XML soubory a po hodne dlouhe dobe s HTML soubory.
+                        Takto zpetne jsem rad za vnimani na cvicenich, diky kteremu jsem nepotreboval studovani zadny extra internetovych stranek zabyvajicich se touto problematiou.
+                        Verim, ze v budoucnu se s touto tematikou XML souboru setkam a budu uz mit alespon zaklad, na kterem se da bez problemu stavet.
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer><b>Autor: David Petřina</b>, CZU 2017, konfigurace aplikace</footer>
+    </body>
+</html>

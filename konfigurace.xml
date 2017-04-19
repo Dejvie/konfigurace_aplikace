@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system version="7.2.0">
+    <graphics quality="7">
+        <display>
+            <display_mode>Fullscreen</display_mode>
+            <resolution>1400x900</resolution>
+            <refresh_rate>75.0Hz</refresh_rate>
+            <monitor>Primary</monitor>
+            <anti-aliasing>MSAA 8x</anti-aliasing>
+            <vertical_sync enabled="false"/>
+        </display>
+        <textures>
+            <texture_resolution>High</texture_resolution>
+            <texture_filtering>16x Anisotropic</texture_filtering>
+            <projected_textures enabled="true"/>
+        </textures>
+        <enviroment>
+            <view_distance value="7"/>
+            <enviroment_detail value="7"/>
+            <ground_clutter value="7"/>
+        </enviroment>
+        <effects>
+            <shadow_quality>High</shadow_quality>
+            <liquid_detail>Good</liquid_detail>
+            <sunshafts>High</sunshafts>
+            <particle_density>Good</particle_density>
+            <ssao>Ultra</ssao>
+            <depth_effects>High</depth_effects>
+            <lighting_quality>High</lighting_quality>
+            <outline_mode>High</outline_mode>
+        </effects>
+    </graphics>
+    <advanced>
+        <triple_buffering>Disabled</triple_buffering>
+        <reduce_input_lag>Disabled</reduce_input_lag>
+        <hardware_cursor>Enabled</hardware_cursor>
+        <msaa>None</msaa>
+        <multisample_aplha-test>Enabled</multisample_aplha-test>
+        <resample_quality>Bilinear</resample_quality>
+        <graphics_api>Custom</graphics_api>
+        <physics_interactions>Player only</physics_interactions>
+        <ui_scale enabled="true" scale="1.0"/>
+        <max_foreground_fps enabled="true" fps="100"/>
+        <max_background_fps enabled="true" fps="30"/>
+        <render_scale render="100"/>
+    </advanced>
+    <network>
+        <optimize_network_for_speed enabled="true"/>
+        <enable_ipv6_when_available enabled="false"/>
+        <advanced_combat_logging enabled="false"/>
+    </network>
+    <languages>
+        <text lang="English"/>
+        <audio lang="English"/>
+    </languages>    
+    <sound enabled="true">
+        <playback>
+            <sound_effects enabled="true">
+                <enable_pet_sounds enabled="true"/>
+                <emote_sounds enabled="true"/>    
+            </sound_effects>
+            <music enabled="true">
+                <loop_music enabled="false"/>
+                <pet_battle_music enabled="true"/>
+            </music>
+            <ambient_sounds enabled="true"/>
+            <dialog enabled="true">
+                <error_speech enabled="true"/>
+            </dialog>
+            <sound_in_background enabled="false"/>
+            <enable_reverb enabled="false"/>
+            <distance_filtering enabled="false"/>
+            <death_knight_voices enabled="true"/>
+        </playback>
+        <hardware>
+            <game_sound_output>System Default</game_sound_output>
+            <sound_channels>High (64)</sound_channels>
+            <sound_cache>Large (64MB)</sound_cache>
+        </hardware>
+        <volume>
+            <master_volume>100</master_volume>
+            <sound>100</sound>
+            <music>40</music>
+            <ambience>55</ambience>
+            <dialog>100</dialog>
+        </volume>
+    </sound>
+    <camera follow="50">
+        <water_collision enabled="false"/>
+        <camera_following_style>Never adjust camera</camera_following_style>
+    </camera>
+    <mouse>
+        <invert_mouse enabled="false"/>
+        <mouse_look_speed speed="20"/>
+        <enable_mouse_sensitivity enabled="true" sensitivity="50"/>
+    </mouse>
+</system>

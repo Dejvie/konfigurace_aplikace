@@ -1,0 +1,119 @@
+
+    {
+        
+            "system": {
+                "~version~": "7.2.0",
+                
+                "graphics": {
+                    "~overall quality~": "7",
+                    "display": {
+                        "display mode": "Fullscreen",
+                        "resolution": "1400x900",
+                        "refresh rate": "75.0Hz",
+                        "monitor": "Primary",
+                        "anti-aliasing": "MSAA 8x",
+                        "enable vertical sync": "false"
+                    },
+                    "textures": {
+                        "textures resolution": "High",
+                        "texture filtering": "16x Anisotropic",
+                        "enable projected textures": "true"
+                    },
+                    "enviroment": {
+                        "view distance value": "7",
+                        "enviroment deatil value": "7",
+                        "ground clutter value": "7"
+                    },
+                    "effects": {
+                        "shadow quality": "High",
+                        "liquid detail": "Good",
+                        "sunshafts": "High",
+                        "particle density": "Good",
+                        "ssao": "Ultra",
+                        "depth effects": "High",
+                        "lighting quality": "High",
+                        "outline mode": "High"
+                    }
+                },
+                
+                    "advanced": {
+                        "triple buffering": "Disabled",
+                        "reduce input lag": "Disabled",
+                        "hardware cursor": "Enabled",
+                        "msaa": "None",
+                        "multisample alpha-test": "Enabled",
+                        "resample quality": "Bilinear",
+                        "graphics api": "Custom",
+                        "physics interactions": "Player only",
+                        "enable ui scale": "true",
+                        "ui scale value": "1.0",
+                        "enable max foreground fps": "true",
+                        "max foreground fps value": "100",
+                        "enable max background fps": "true",
+                        "max background fps value": "30",
+                        "render scale value": "100"
+                },
+                
+                    "network": {
+                        "enable optimize network for speed": "true",
+                        "enable ipv6 when available": "false",
+                        "enable advanced combat logging": "false"
+                },
+                
+                    "languages": {
+                        "text language": "English",
+                        "audio language": "English"
+                },
+                
+                    "sound": {
+                        "~enabled~": "true",
+                        "playback": {
+                            "sound effects": {
+                                "~enabled~": "true",
+                                "enable pet sounds": "true",
+                                "enable emote sounds": "true"
+                            },
+                            "music": {
+                                "~enabled~": "true",
+                                "enable loop music": "false",
+                                "enable pet battle music": "true"
+                            },
+                            "enable ambient sounds": "true",
+                            "dialog": {
+                                "~enabled~": "true",
+                                "enable error speech": "true"
+                            },
+                            "enable sound in background": "false",
+                            "enable reverb": "false",
+                            "enable distance filtering": "false",
+                            "enable death knight voices": "true"
+                        },
+                        "hardware": {
+                            "game sound output": "System Default",
+                            "sound channels": "High (64)",
+                            "sound cache": "Large (64MB)"
+                        },
+                        "volume": {
+                            "master volume": "100",
+                            "sound": "100",
+                            "music": "40",
+                            "ambience": "55",
+                            "dialog": "100"
+                        }
+                    },
+                    
+                        "camera": {
+                            "~camera follow speed~": "50",
+                            "enable water collision": "false",
+                            "camera following style": "Never adjust camera"
+                    },
+                    
+                        "mouse": {
+                            "enable mouse invert": "false",
+                            "mouse look speed": "20",
+                            "enable mouse sensitivity": "true",
+                            "mouse sensitivity": "50"
+                    }
+            }
+        }
+    
